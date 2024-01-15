@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.container{
+    width: 80%;
+    max-width:1180px ;
+    margin: 0px auto;
+    font-family: "Mulish", sans-serif;
+}
+                 /* header section */
+.head{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logo-file{
+    display: flex;
+   
+    
+}
+
+
+.header-title{
+    margin-left: 15px;
+    font-weight: 800;
+
+}
+.beauty{
+    color: #FF5400;
+}
+
+ul li{
+    display: inline;
+ list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-content{
+    
+    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    margin-top: 50px;
+   border-radius: 15px;
+   
+}
+.background{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 15px;
+}
+
+
+.header-title-one{
+    color:white;
+    font-size: 64px;
+   text-align: center;
+   padding-top: 100px;
+   font-weight: 800;
+}
+
+.header-discript{
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+     width: 676px;
+     padding-left: 245px;
+    
+}
+.input{
+    padding-top: 30px;
+    padding-left: 210px;
+}
+
+.button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    background-color: white;
+    margin-right: 15px;
+    border: 0;
+}
+.button1{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    background-color: white;
+    margin-right: 15px;
+    border: 0;
+    background: #FF5400;
+    color: white;
+}
+select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    background-color: white;
+    margin-right: 15px;
+    border: 0;
+}
