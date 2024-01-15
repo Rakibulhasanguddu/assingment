@@ -73,8 +73,13 @@ li a{
     
 }
 .input{
-    padding-top: 30px;
-    padding-left: 210px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.30);
+  height: 60px;
+  width: 770px;
+  border-radius: 10px;
+  margin-left: 180px;
 }
 
 .button{
@@ -108,4 +113,52 @@ select{
     background-color: white;
     margin-right: 15px;
     border: 0;
+}
+
+
+
+@media screen and (max-width:576px) {
+    
+    .header-content{
+        width: 100%;
+         width: 450px; 
+        /* margin: 0px auto; */
+        margin-left: 0px;
+
+    }
+    .header-title-one{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .header-discript{
+        color: #FFF;
+        font-size: 20px;
+        text-align: center;
+         width: 450px;
+         padding-left: 0px;
+
+}
+.input{
+    padding-top: 10px;
+    padding-left: 20px;
+   
+  height: 300px;
+  width: 330px;
+  border-radius: 10px;
+  margin: 10px 50px;
+  display: grid;
+  gap: 15px;
+}
+.button{
+    width: 300px;
+
+}
+.button1{
+    width: 300px;
+
+}
+
+select{
+    width: 300px;}
 }
